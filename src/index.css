@@ -1,0 +1,129 @@
+html{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: black;
+  color: whitesmoke;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  color: whitesmoke;
+}
+
+.head {
+ border-bottom: 1px solid white ;
+ text-align: center;
+ padding-top: 30px;
+ background-image: url('./head.jpg');
+ height: 100px;
+ text-shadow: 2px 2px 2px black, 0 0 1em rgb(56, 0, 187);
+}
+
+
+.btn-cont {
+  display: grid;
+  grid-template-columns: 6fr 6fr 6fr 1fr 1fr 1fr;
+}
+
+.btn {
+  border: 1px solid white;
+  background: black;
+  height: 40px;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px black, 0 0 1em rgb(217, 212, 228);
+  
+}
+
+.btn:hover {
+  cursor: pointer;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px black, 0 0 1em rgb(235, 8, 8);
+}
+
+.btn.icn {
+  padding: 4px 10px;
+  font-size: 28px;
+  border-left: 0;
+  border-right: 0;
+}
+
+.btn.icn:hover {
+  font-size: 30px;
+}
+
+
+.textBox {
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.firstH {
+  text-shadow: 2px 2px 2px rgb(141, 28, 216), 0 0 1em rgb(248, 247, 248);
+}
+
+.masterBox {
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 30px;
+}
+
+.masterBlock {
+border: 2px solid whitesmoke;
+width: 30%;
+flex: 0 0 auto;
+gap: 5px;
+}
+
+
+.bgPhoto {
+  height: 400px;
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex: 1 1 auto;
+}
+
+.btn.mast {
+  border: 0;
+  padding: 4px 10px;
+  font-size: 28px;
+}
+
+.flexPhotoMast {
+  flex: 0 0 auto;
+  gap: 10px;
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 10px solid rgb(0, 0, 0);
+}
+
+.photoMast {
+  display: flex;
+  overflow-x: auto;
+}
+
+.photoMast::-webkit-scrollbar {
+  width: 7px;
+}
+
+.photoMast::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: #0b0b0e;
+  border-radius: 10px;
+}
+
+.photoMast::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgb(12,13,20);
+  background: linear-gradient(90deg, rgba(12,13,20,1) 12%, rgba(137,11,246,0.9976365546218487) 87%);
+}
+
+
+
+
+
+
