@@ -159,6 +159,10 @@ padding: 10px;
   background: linear-gradient(90deg, rgba(12,13,20,1) 12%, rgba(137,11,246,0.9976365546218487) 87%);
 }
 
+.masterName{
+  font-size: x-large;
+}
+
 .infoStyle {
   margin: 7px;
 }

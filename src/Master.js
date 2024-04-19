@@ -10,7 +10,7 @@ function Master({photoClick, name, vk, infoStyle, bg, bgM}) {
     return(
         <>
             <div className="masterBlock">   
-                <h3>{name}</h3>
+                <p className="masterName">{name}</p>
                 <a href={vk} className="btn mast"> <SlSocialVkontakte /></a>  
                  <div>
                     <Photo bg={bg} onClick={() => photoClick(bg)} />
