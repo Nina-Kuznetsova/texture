@@ -1,22 +1,22 @@
 
-import { useState } from "react";
+
 import After from "./After";
 import First from "./First";
 import Header from "./Header";
-import Master2 from "./Master2";
+import Masters from "./Masters";
 import ScreenPhoto from './ScreenPhoto';
 
 
 function App() {
-    const [photo, setPhoto] = useState(null);
+    
 
     return (
         <>
             <Header />
             <First />
-            <Master2 photoClick={photo => setPhoto(photo)} />
+            <Masters />
             <After />
-            <ScreenPhoto photo={photo} removePhoto={() => setPhoto(null)} />
+            <ScreenPhoto />
             
         </>
     )

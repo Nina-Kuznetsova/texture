@@ -8,30 +8,48 @@ html{
   box-sizing: border-box;
   margin: 0;
   color: whitesmoke;
+  line-height: 150%;
 }
 
 .head {
  border-bottom: 1px solid white ;
  text-align: center;
  padding-top: 30px;
- background-image: url('./head.jpg');
+ background-image: url('./media/head.jpg');
  height: 100px;
  text-shadow: 2px 2px 2px black, 0 0 1em rgb(56, 0, 187);
 }
-
+@media (max-width: 470px) {
+  .head{ height: 130px;}
+}
 
 .btn-cont {
   display: grid;
-  grid-template-columns: 6fr 6fr 6fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: max-content;
+  border: 2px solid rgb(255, 255, 255);
+}
+@media (max-width: 756px) {
+  .btn-cont {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
+
 .btn {
-  border: 1px solid white;
   background: black;
   height: 40px;
   font-size: 18px;
   text-shadow: 2px 2px 2px black, 0 0 1em rgb(217, 212, 228);
-  
+  border: 0;
+  border-right: 2px solid whitesmoke;
+}
+@media (max-width: 756px) {
+  .btn {
+    border-bottom: 2px solid whitesmoke;
+    border-right: 0;
+  }
 }
 
 .btn:hover {
@@ -40,11 +58,17 @@ html{
   text-shadow: 2px 2px 2px black, 0 0 1em rgb(235, 8, 8);
 }
 
+.icnBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
 .btn.icn {
   padding: 4px 10px;
   font-size: 28px;
-  border-left: 0;
-  border-right: 0;
+  border: 0;
 }
 
 .btn.icn:hover {
@@ -52,10 +76,14 @@ html{
 }
 
 
-.textBox {
+.infoBox {
   padding: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.infoBlock {
+  margin: 20px;
 }
 .firstH {
   text-shadow: 2px 2px 2px rgb(141, 28, 216), 0 0 1em rgb(248, 247, 248);
@@ -74,7 +102,16 @@ gap: 30px;
 border: 2px solid whitesmoke;
 width: 30%;
 flex: 0 0 auto;
-gap: 5px;
+margin: 7px;
+padding: 10px;
+}
+
+@media (min-width:756px) and (max-width:1190px ) {
+  .masterBlock {width: 45%;}
+}
+
+@media (max-width: 756px) {
+  .masterBlock {width: 90%;}
 }
 
 
@@ -122,6 +159,9 @@ gap: 5px;
   background: linear-gradient(90deg, rgba(12,13,20,1) 12%, rgba(137,11,246,0.9976365546218487) 87%);
 }
 
+.infoStyle {
+  margin: 7px;
+}
 
 
 
