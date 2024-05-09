@@ -3,7 +3,7 @@ function After() {
     return (
         <>
         <div className="infoBox" >
-            <h2 className="firstH"> Что тебе понадобится после сеанса:</h2>
+            <h2 className="firstH" id="after_the_session"> Что тебе понадобится после сеанса:</h2>
             <ul>
                 <li>Впитывающие пеленки</li>
                 <li>Депантенол (мазь)</li>

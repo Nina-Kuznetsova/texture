@@ -35,7 +35,9 @@ function Masters () {
     const [photo, setPhoto] = useState(null);
     return(
         <>
-        
+            <div className="infoBox">
+                <h1 id="our_masters" className="firstH">Наши мастера</h1>
+             </div>
             <div className="masterBox" >
                 
                 <Master photoClick={photo => setPhoto(photo)} name={"Дмитрий Смирнов"} 
@@ -45,7 +47,7 @@ function Masters () {
                     vk={"https://vk.com/kate_apl"} infoStyle={"Реализм, Графика"} bg={aplet1} bgM={[apletPr, apletPr2, apletPr3, apletPr4, apletPr5]}/>
 
                 <Master photoClick={photo => setPhoto(photo)} name={"Дмитрий Василенко"} 
-                    vk={"https://vk.com/stepta"} infoStyle={"Реализм, Графика"} bg={vas1} bgM={[apletPr, apletPr2, apletPr3, apletPr4, apletPr5]}/>
+                    vk={"https://vk.com/stepta2"} infoStyle={"Реализм, Графика"} bg={vas1} bgM={[apletPr, apletPr2, apletPr3, apletPr4, apletPr5]}/>
 
                 <Master photoClick={photo => setPhoto(photo)} name={"Eвгений Ozz"} 
                     vk={"https://vk.com/ozz_one"} infoStyle={"Реализм, Графика"} bg={ozz1} bgM={[ozzPr, ozzPr2, ozzPr3, ozzPr4, ozzPr5]}/>

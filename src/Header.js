@@ -8,9 +8,9 @@ function Header() {
              
         <h1 className="head">TEXTURE TATTOO STUDIO</h1>
             <div className="btn-cont">
-                <button className="btn">Перед сеансом</button>
-                <button className="btn">Наши мастера</button>
-                <button className="btn">После сеанса</button>
+                <a href="#befor_the_session" className="btn">Перед сеансом</a>
+                <a href="#our_masters" className="btn">Наши мастера</a>
+                <a href="#after_the_session" className="btn">После сеанса</a>
                 <div className="icnBox">
                     <a className="btn icn" href="https://t.me/texturetattoo"><FaTelegram /></a>
                     <a className="btn icn" href="https://vk.com/texture_tattoostudio"><SlSocialVkontakte /></a>

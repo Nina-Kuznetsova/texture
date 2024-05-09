@@ -40,10 +40,11 @@ html{
 .btn {
   background: black;
   height: 40px;
-  font-size: 18px;
-  text-shadow: 2px 2px 2px black, 0 0 1em rgb(217, 212, 228);
+  font-size: 20px;
+  text-shadow: 2px 2px 2px black, 0 0 1em rgb(175, 147, 235);
   border: 0;
   border-right: 2px solid whitesmoke;
+  text-align: center;
 }
 @media (max-width: 756px) {
   .btn {
@@ -55,7 +56,7 @@ html{
 .btn:hover {
   cursor: pointer;
   font-size: 20px;
-  text-shadow: 2px 2px 2px black, 0 0 1em rgb(235, 8, 8);
+  text-shadow: 2px 2px 2px black, 0 0 1em rgb(82, 205, 243);
 }
 
 .icnBox {

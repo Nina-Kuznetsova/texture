@@ -3,7 +3,7 @@ function First() {
     return (
         <>
         <div className="infoBox">
-            <h2 className="firstH">Хочешь тату, но не знаешь  с чего начать?</h2>
+            <h2 className="firstH" id="befor_the_session">Хочешь тату, но не знаешь  с чего начать?</h2>
             <ul>
                 <li>
                     Вопервых подумай какого размера и где ты хотел бы видеть наше искусство. 
